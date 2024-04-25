@@ -16,5 +16,6 @@ public class MethodOverloading {
         methodOverloading.method();
         methodOverloading.method(1);
         methodOverloading.method(1.1);
+        methodOverloading.method('a');
     }
 }
