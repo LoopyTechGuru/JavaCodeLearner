@@ -2,13 +2,13 @@ package com.oops.polymorphism;
 
 public class MethodOverloading {
     public void method(){
-        System.out.println("method called without parameter");
+        System.out.println("method called without argument");
     }
     public void method(int a){
-        System.out.println("method called with int parameter: "+a);
+        System.out.println("method called with int argument: "+a);
     }
     public void method(double a){
-        System.out.println("method called with double parameter: "+a);
+        System.out.println("method called with double argument: "+a);
     }
 
     public static void main(String[] args) {
